@@ -11,7 +11,7 @@ df = pd.read_excel(excel_file)
 rngData = df.values.tolist()
 
 # Google Sheet Id
-gsheet_id = '1l7q-GJ7kjGoLHQTwmai3EqeLeeA95mP8bHUC2t-hG2w'
+gsheet_id = '1Uz8azuQY3VgFml57cGBJR4w5kkfY_luppd8S5Oq_jsA'
 CLIENT_SECRET_FILE = 'GsheetAPI/client_secret.json'
 API_SERVICE_NAME = 'sheets'
 API_VERSION = 'v4'
