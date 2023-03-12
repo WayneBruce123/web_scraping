@@ -77,7 +77,7 @@ for i in range(df.shape[0]):
     df.loc[i,'ProductImageFileName'] = df.loc[i,'ProductImageFileName'].split('/')[-1]    
 #df
 
-df.to_csv('Products.csv', encoding = 'utf-8-sig')
+df.to_excel('Products.xlsx')
 
 for i in range(df.shape[0]):
     filename = df.loc[i,'ProductImageFileName']
